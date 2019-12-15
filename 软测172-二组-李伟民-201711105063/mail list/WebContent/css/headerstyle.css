@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body{
+	
+    
+    background-color: red; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to bottom right, #0fffff ,#8080f0 );
+
+}
+
+
+#Bt{
+	margin:20% 40%;
+	width:350px;
+	height:400px;
+	background-color:#8080ff;
+	border-radius: 25px;
+	-webkit-box-shadow: 3px 3px 3px blue;  
+    -moz-box-shadow: 3px 3px 3px blue;  
+     box-shadow: 3px 3px 3px blue;  
+     position:relation;
+	
+	
+}
+
+#Bt h3{
+	color:#000040;
+	width:215px;
+	height:auto;
+	line-height:20px;
+	font-size:20px;
+	
+}
+
+
+
+#Bt #cont{
+	position:relation;
+	text-align:center;
+	left:50%;
+	height:50%;
+}
+
+#Bt #cont form{
+	
+	margin-left:30px;
+	margin-right:25px;
+}
+#Bt #cont h3{
+	display:block;
+	padding-top:100px;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
